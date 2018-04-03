@@ -1,13 +1,13 @@
 package Variaveis;
 
 public class Quantitativo {
-    String v;
-    int f;
-    double pr;
-    double por;
+    String valor;
+    int frequencia;
+    double prporcao;
+    double porcentagem;
     
     public void quantitativo(String s){
-        this.v=s;
-        this.f+=1;
+        this.valor=s;
+        this.frequencia+=1;
     }
 }
